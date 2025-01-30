@@ -1,13 +1,13 @@
-package com.ttf.videostream.videostream;
+package com.ttf.Streaming;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VideostreamApplication {
+public class StreamingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VideostreamApplication.class, args);
+		SpringApplication.run(StreamingApplication.class, args);
 	}
 
 }
