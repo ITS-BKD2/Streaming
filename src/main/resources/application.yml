@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Streaming
+server:
+  port: 8085
+
+eureka:
+  client:
+    enabled: true
