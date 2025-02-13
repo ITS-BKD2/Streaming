@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: video-streaming
+server:
+  port: 8085
+
+eureka:
+  client:
+    enabled: true

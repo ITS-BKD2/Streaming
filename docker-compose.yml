@@ -37,3 +37,9 @@ services:
       # Mounts the project folder into the container
       - ".:/workspace"
     working_dir: "/workspace"
+
+  eureka:
+    image: ghcr.io/its-bkd2/eureka:0.0.1
+    ports:
+      - "8761:8761"
+    container_name: eureka
