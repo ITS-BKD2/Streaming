@@ -1,6 +1,6 @@
 spring:
   application:
-    name: video-streaming
+    name: Streaming
 server:
   port: 8085
 
